@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .page {
@@ -13,6 +14,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 55px;
+  
 }
 
 ul {
@@ -21,4 +23,8 @@ ul {
   gap: 48px;
   margin: 0;
   padding: 0;
+}
+
+h1, ul {
+  font-family: 'Mulish', sans-serif;
 }
