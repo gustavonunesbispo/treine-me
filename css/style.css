@@ -17,6 +17,11 @@ nav {
   
 }
 
+a {
+  color: #1F1534;
+  text-decoration: none;
+ }
+
 ul {
   list-style: none;
   display: flex;
@@ -29,13 +34,15 @@ h1, ul {
   font-family: 'Mulish', sans-serif;
 }
 
-a {
-  color: #1F1534;
-  text-decoration: none;
- }
 
 ul li a:hover {
  font-weight: bold; 
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 h1 {
@@ -51,10 +58,11 @@ h1 span {
   font-weight: bold;
 }
 
-p {
+section p {
   font-size: 14px;
   line-height: 28px;
   color: #7D7987;
+  margin: 40px 0;
 }
 
 button{
@@ -62,9 +70,14 @@ button{
   font-family: 'Open Sans', sans-serif;
 }
 
-footer a {
+
+footer {
   font-weight: bold;
   font-size: 14px;
   line-height: 28px;
+  text-align: center;
+  margin-top: 80px;
 }
+
+
 
