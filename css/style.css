@@ -37,9 +37,13 @@ h1, ul {
   font-family: 'Mulish', sans-serif;
 }
 
+ul li a {
+  opacity: 0.5;
+}
 
 ul li a:hover {
  font-weight: bold; 
+ opacity: 1;
 }
 
 main {
@@ -93,11 +97,15 @@ button:hover {
 
 
 footer {
-  font-weight: bold;
+  font-weight: normal;
   font-size: 14px;
   line-height: 28px;
   text-align: center;
   margin-top: 80px;
+}
+
+footer a {
+  font-weight: bold;
 }
 
 #balls {
